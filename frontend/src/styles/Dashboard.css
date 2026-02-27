@@ -1,0 +1,50 @@
+/* Device Table */
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.device-table th {
+  background: #111827;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.device-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.device-table tr:hover {
+  background: #f9fafb;
+}
+
+.status-online {
+  color: green;
+  font-weight: 600;
+}
+
+.status-offline {
+  color: red;
+  font-weight: 600;
+}
+
+.open-button {
+  padding: 6px 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.open-button:hover {
+  background: #1d4ed8;
+}

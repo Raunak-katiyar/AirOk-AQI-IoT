@@ -1,0 +1,39 @@
+.aqi-card{
+    padding: 20px;
+    border-radius: 12px;
+    color:white;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.aqi-card h1{
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+/* AQI Levels */
+.good{
+    background-color: #2ecc71;
+}
+.moderate {
+  background-color: #f39c12;
+}
+
+.unhealthy {
+  background-color: #e74c3c;
+}
+
+.hazardous {
+  background-color: #8e44ad;
+}
+
+/* Status */
+.online {
+  color: lime;
+  font-weight: bold;
+}
+
+.offline {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,97 @@
+.super-admin-container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.super-admin-title {
+  margin-bottom: 30px;
+}
+
+.card-box {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  padding: 8px;
+}
+
+.create-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.token-text {
+  margin-top: 10px;
+  color: green;
+}
+
+.user-select {
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.device-table th,
+.device-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.device-table thead {
+  background: #f5f5f5;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-blue {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background: #ffc107;
+  color: black;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
